@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
- <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
@@ -19,10 +19,8 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -42,45 +40,45 @@
               <li class="nav-item">
                 <a class="nav-link" href="./login.html">Contact</a>
               </li>
-
             </ul>
-            <a href="./login.html" class="btn btn-success px-4 rounded-pill mt-">Login</a>
+            <a href="./login.html" class="btn btn-success px-4 rounded-pill mt-2">Login</a>
           </div>
         </div>
       </nav>
     </header>
+
+    <!-- Section 1 -->
     <div class="container mt-4 bg-light rounded">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
-            <h1 class="display-3 mt-4">Find your perfect place to stay</h1>
+            <h1 class="display-5 mt-4">Find your perfect place to stay</h1>
             <p class="lead mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <img src="./video.png" alt="" class="">
+            <img src="./video.png" alt="Video preview" class="img-fluid">
           </div>
         </div>
         <div class="col-lg-6">
           <div class="content-img">
-            <img src="./1.png" alt="" class="img-fluid ">
+            <img src="./1.png" alt="Hotel Image" class="img-fluid">
           </div>
         </div>
       </div>
-
     </div>
-    <div class="container ">
+
+    <!-- Section 2 -->
+    <div class="container mt-4">
       <div class="row">
-        <div class="col-lg-12 ">
-          <div class="menu">
+        <div class="col-lg-12">
+          <div class="d-flex flex-wrap justify-content-between">
             <div class="d-flex">
               <div class="flex-shrink-0">
-                <i class="fa-solid fa-location-dot "></i>
+                <i class="fa-solid fa-location-dot"></i>
               </div>
               <div class="flex-grow-1 ms-3">
                 <h6>Location</h6>
                 <p>United States</p>
               </div>
             </div>
-
-
             <div class="d-flex">
               <div class="flex-shrink-0">
                 <i class="fa-solid fa-calendar-days"></i>
@@ -90,7 +88,6 @@
                 <p>10-jun-2024</p>
               </div>
             </div>
-
             <div class="d-flex">
               <div class="flex-shrink-0">
                 <i class="fa-solid fa-calendar-days"></i>
@@ -100,226 +97,168 @@
                 <p>15-jun-2024</p>
               </div>
             </div>
-
             <div class="d-flex">
               <div class="flex-shrink-0">
-                <i class="fa-solid fa-location-dot "></i>
+                <i class="fa-solid fa-location-dot"></i>
               </div>
               <div class="flex-grow-1 ms-3">
                 <h6>Rooms For</h6>
                 <p>1 Room 2 Guest</p>
               </div>
             </div>
-
-            <button type="button" class="btn btn-success px-5 rounded-pill">
-
-              Search
-
-            </button>
+            <button type="button" class="btn btn-success px-5 rounded-pill mt-3 mt-lg-0">Search</button>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Section 2 -->
+    <!-- Section 3 -->
     <div class="container mt-5">
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="head ">Our Most Popular Hotels</h1>
-          <p class="lead mt-5 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique laboriosam
-            molestiae dolores
-            tenetur? Consequuntur?</p>
+          <h1 class="head">Our Most Popular Hotels</h1>
+          <p class="lead mt-5 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique laboriosam molestiae dolores tenetur? Consequuntur?</p>
         </div>
-        <div class="col-lg-6 ">
-          <div class="bt d-flex justify-content-end mt-5 ">
-            <a href="" class="btn  text-success bg-success-subtle">ViewAll</a>
-          </div>
+        <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center mt-5">
+          <a href="#" class="btn text-success bg-success-subtle">View All</a>
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./image (1).png" class="card-img-top" alt="...">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="./image (1).png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <p class="card-title text-success">London NW8 7JT England</p>
-              <h5 class="1 fs-6">Danubius Hotel Regents Park</h5>
-              <p class="card-text"> $200 Par Night |<img src="../Assets/Images/Group 10.png" alt=""></p>
-
+              <h5 class="fs-6">Danubius Hotel Regents Park</h5>
+              <p class="card-text">$200 Per Night | <img src="./Group 10.png" alt="Rating"></p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./image (2).png" class="card-img-top" alt="...">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="./image (2).png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <p class="card-title text-success">London NW8 7JT England</p>
-              <h5 class="1 fs-6">The Resident Soho</h5>
-              <p class="card-text"> $200 Par Night |<img src="../Assets/Images/Group 10.png" alt=""></p>
+              <h5 class="fs-6">The Resident Soho</h5>
+              <p class="card-text">$200 Per Night | <img src="./Group 10.png" alt="Rating"></p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./image (3).png" class="card-img-top" alt="...">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="./image (3).png" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
               <p class="card-title text-success">London NW8 7JT England</p>
-              <h5 class="1 fs-6">London Bridge Hotel</h5>
-              <p class="card-text"> $200 Par Night |<img src="../Assets/Images/Group 10.png" alt=""></p>
+              <h5 class="fs-6">London Bridge Hotel</h5>
+              <p class="card-text">$200 Per Night | <img src="./Group 10.png" alt="Rating"></p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- end -->
 
-    <!-- section 3 -->
+    <!-- Section 4 -->
     <div class="container mt-5">
       <div class="row">
         <div class="col-lg-4">
-          <h4>We do our best facilities provide you</h4>
-          <p class="p mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam maxime deserunt possimus?
-            Nostrum,
-            repudiandae soluta.</p>
-          <button class="btn mt-4 btn-success  rounded-pill">Contact Now</button>
+          <h4>We provide our best facilities</h4>
+          <p class="mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam maxime deserunt possimus? Nostrum, repudiandae soluta.</p>
+          <button class="btn mt-4 btn-success rounded-pill">Contact Now</button>
         </div>
-        <div class="col-lg-2 ">
-          <div class="box border border-1 py-3  text-center ">
+        <div class="col-lg-2 col-md-4 mb-4">
+          <div class="box border py-3 text-center">
             <img src="./workspace 1.png" alt="">
             <p>Private workspace</p>
           </div>
-          <div class="box2 border border-1 text-center mt-5 py-3 ">
+          <div class="box border text-center mt-4 py-3">
             <img src="./flash (1) 1.png" alt="">
             <p>Free Electricity</p>
           </div>
-
         </div>
-
-        <div class="col-lg-2 ">
-          <div class="box border border-1 text-center py-3 ">
+        <div class="col-lg-2 col-md-4 mb-4">
+          <div class="box border py-3 text-center">
             <img src="./parking-area (1) 1.png" alt="">
             <p>Parking Area</p>
           </div>
-          <div class="box2 border border-1 text-center mt-5 py-3 ">
-            <img src="./swimmer 1.png" alt="">
+          <div class="box border text-center mt-4 py-3">
+            <img src="./reception-bell 1.png" alt="">
+            <p>Room Service</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 mb-4">
+          <div class="box border py-3 text-center">
+            <img src="./medical 1.png" alt="">
+            <p>Medical center</p>
+          </div>
+          <div class="box border text-center mt-4 py-3">
+            <img src="./food-service 1.png" alt="">
+            <p>Restaurant</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 mb-4">
+          <div class="box border py-3 text-center">
+            <img src="./study-table 1.png" alt="">
+            <p>Study table</p>
+          </div>
+          <div class="box border text-center mt-4 py-3">
+            <img src="./swimming 1.png" alt="">
             <p>Swimming Pool</p>
           </div>
         </div>
-        <div class="col-lg-2">
-          <div class="box border border-1 text-center py-3 ">
-            <img src="./cappuccino 1.png" alt="">
-            <p>Break Fast</p>
-          </div>
-          <div class="box2 border border-1 text-center mt-5 py-3 ">
-            <img src="./dumbell 1 (1).png" alt="">
-            <p>Exercise Space</p>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="box border border-1 text-center py-3 ">
-            <img src="./wifi (2) 1.png" alt="">
-            <p>Free wifi</p>
-          </div>
-          <div class="box2 border border-1 text-center mt-5 py-3 ">
-            <img src="./ellipsis 1.png" alt="">
-            <p>Private workspace</p>
-          </div>
-        </div>
       </div>
     </div>
 
-    <!-- end -->
-    <!-- section 4 -->
-    <div class="container mt-5 ">
-      <div class="row bg-light rounded">
-        <div class="col-lg-6 ">
-          <img src="./image (4).png" alt="" class="img-fluid">
-        </div>
-        <div class="col-lg-6 mt-5">
-          <h4>Discover our History</h4>
-          <p class="p mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br><br><br>Lorem ipsum dolor sit
-            amet
-            consectetur adipisicing elit. Dolorum vitae tenetur, corporis quae ab reprehenderit voluptatem voluptates..
-          </p>
-          <button class="btn mt-4 btn-success  rounded-pill">Explore More</button>
-        </div>
-      </div>
-    </div>
-    <!-- end  -->
-    <!-- section 5 -->
-    <div class="container mt-5">
-      <div class="row bg-light px-5 rounded">
-        <div class="col-lg-6 mt-5 ">
-          <p><img src="./“ (1).png" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Est voluptas dolorem, quaerat hic id cupiditate autem nihil, exercitationem quibusdam cum recusandae nulla
-            perspiciatis porro temporibus! <img src="../Assets/Images/“.png" alt=""></p>
-
-          <h5 class="h mt-4">Alexandr Ivchenko</h5>
-          <p>Businessman</p>
-        </div>
-      </div>
-    </div>
-    <!-- end -->
-    <!-- section 6 -->
-    <div class="container mt-5">
+    <!-- Section 5 -->
+    <div class="container mt-5 bg-success text-light p-4 rounded">
       <div class="row">
-        <div class="col-lg-12"><img src="./map.png" alt="" class="img-fluid"></div>
-      </div>
-      <div class="row bg-light rounded">
-        <div class="menu1 px-5">
-          <div class="col-lg-6 mt-4">
-            <h5>Location of our Hotelos</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-          </div>
-
-          <div class="col-lg-6 mt-5 text-end">
-            <input type="email" placeholder="Enter Your Email" class="i rounded-pill bg-light text-center"> <button
-              class="btn rounded-pill btn-success">Contact</button>
-          </div>
+        <div class="col-lg-6">
+          <h2>Be the first to know when we release our new products</h2>
+          <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptatum voluptatibus neque veniam voluptate sunt accusantium.</p>
+        </div>
+        <div class="col-lg-6">
+          <form class="row g-3">
+            <div class="col-md-8">
+              <input type="email" class="form-control rounded-pill mt-3" placeholder="Email Address">
+            </div>
+            <div class="col-md-4">
+              <button type="submit" class="btn btn-light rounded-pill mt-3">Send</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
-    <!-- end -->
-    <!-- section 7 -->
-    <div class="container mt-5 ">
-      <div class="row mt-5">
-        <div class="col-lg-4 mt-5 m-5">
-          <p>Lorem Ipsum is simply dummy text of the printing.</p><br>
-          <div class="icon"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-google"></i>
-          </div>
-          </div>
-          <div class="col-lg-2 mt-4 ">
-            <ul class="list ">
-            <h6 class="f fw-bold">Home</h6>
-            <li>Booking</li>
-            <li>Facilities</li>
-            <li>Location</li>
-            <li>Contact</li>
-          </ul>
-          </div>
-          <div class="col-lg-2 mt-4 ">
-            <ul class="list">
-            <h6 class="f fw-bold">Help</h6>
-            <li>About Us</li>
-            <li>Help Center</li>
-            <li>Privacy Policy</li>
-            <li>FAQs</li>
-          </ul>
-          </div>
-          <div class="col-lg-2 mt-4 ">
-            <ul class="list">
-            <h6 class="f fw-bold">Get The App</h6>
-            <li>iOS App</li>
-            <li>Android App</li>
-            
-          </ul>
-          </div>
+
+    <!-- Section 6 -->
+    <footer class="container mt-5 text-center">
+      <h2>Booking</h2>
+      <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio magni vero repudiandae id sed qui.</p>
+      <div class="row justify-content-center mt-5">
+        <div class="col-auto">
+          <a href="#" class="text-decoration-none">
+            <i class="fab fa-facebook-f fa-2x"></i>
+          </a>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="text-decoration-none">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="text-decoration-none">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="text-decoration-none">
+            <i class="fab fa-linkedin-in fa-2x"></i>
+          </a>
+        </div>
       </div>
-    </div>
-    <!-- end -->
+    </footer>
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    integrity="sha384-dQF1WbqqiJ6fnuOPSNk/d4B0VR2uC11ykPqSnnNr4/V27BfDQO/bX7EAPt08TUwP" crossorigin="anonymous"></script>
 </body>
 
 </html>
